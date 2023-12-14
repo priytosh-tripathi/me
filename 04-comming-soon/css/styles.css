@@ -118,6 +118,12 @@ html {
 
 .left-section{ position: absolute; top: 0; bottom: 0; left: 0; width: 50%; background-size: cover; }
 
+@media (max-width:629px) {
+	img#optionalstuff {
+	  display: none;
+	}
+  }
+
 
 #normal-countdown{ text-align: center; }
 
@@ -180,7 +186,7 @@ html {
 .right-section .footer-icons > li > a > i[class*="twitter"]{ color: #3AA4F8; border-color: #3AA4F8; }
 .right-section .footer-icons > li > a > i[class*="google"]{ color: #F43846; border-color: #F43846; }
 .right-section .footer-icons > li > a > i[class*="instagram"]{ color: #8F614A; border-color: #8F614A; }
-.right-section .footer-icons > li > a > i[class*="pinterest"]{ color: #E1C013; border-color: #E1C013; }
+.right-section .footer-icons > li > a > i[class*="pinterest"]{ color: #E1C013; border-color: #685e2e; }
 
 
 .button-30 {
